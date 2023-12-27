@@ -14,15 +14,26 @@ export function Footer() {
           Tb
         </h1>
         <div className="text-white flex lg:mt-2 xs:mt-0">
-          <span className="w-[40px] h-[40px] bg-indigo-600 hover:bg-indigo-800 rounded-full flex justify-center items-center hover:-translate-y-1 hover:scale-110  duration-300 ... hover:drop-shadow-sm">
-            <FaLinkedinIn className="h-[20px] w-[20px] " />
-          </span>
-          <span className="w-[40px] h-[40px] bg-indigo-600 hover:bg-indigo-800  rounded-full flex justify-center items-center ml-2 hover:-translate-y-1 hover:scale-110  duration-300 ... hover:drop-shadow-sm">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/brunovelasquezdev
+"
+          >
+            <span className="w-[40px] h-[40px] bg-indigo-600 hover:bg-indigo-800 rounded-full flex justify-center items-center hover:-translate-y-1 hover:scale-110  duration-300 ... hover:drop-shadow-sm">
+              <FaLinkedinIn className="h-[20px] w-[20px] " />
+            </span>
+          </a>
+          <a
+            target="_blank"
+            href="https://www.youtube.com/@conerogaming4619
+"
+          ><span className="w-[40px] h-[40px] bg-indigo-600 hover:bg-indigo-800  rounded-full flex justify-center items-center ml-2 hover:-translate-y-1 hover:scale-110  duration-300 ... hover:drop-shadow-sm">
             <FaYoutube className="h-[20px] w-[20px] " />
-          </span>
-          <span className="w-[40px] h-[40px] bg-indigo-600 hover:bg-indigo-800 rounded-full flex justify-center items-center ml-2 hover:-translate-y-1 hover:scale-110  duration-300 ... hover:drop-shadow-sm">
+          </span></a>
+          
+          <a target="_blank" href="https://github.com/DazzleDeveloper"><span className="w-[40px] h-[40px] bg-indigo-600 hover:bg-indigo-800 rounded-full flex justify-center items-center ml-2 hover:-translate-y-1 hover:scale-110  duration-300 ... hover:drop-shadow-sm">
             <FaGithub className="h-[20px] w-[20px]" />
-          </span>
+          </span></a> 
         </div>
       </div>
       <div className="font-montserrat lg:mt-2 xs:mt-5 md:mt-3">
@@ -33,7 +44,7 @@ export function Footer() {
             <GrMail />
             <h4>brunoty000@gmail.com</h4>
           </div>
-          <div className="flex items-center  justify-start gap-2" >
+          <div className="flex items-center  justify-start gap-2">
             <FaSquarePhone />
             <h4>+51 943 153 338</h4>
           </div>
